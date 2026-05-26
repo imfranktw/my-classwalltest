@@ -11,3 +11,9 @@ export type Answer = {
   content: string;
   created_at: string;
 };
+
+export type Dislike = {
+  id: string;
+  question_id: string;
+  created_at: string;
+};
